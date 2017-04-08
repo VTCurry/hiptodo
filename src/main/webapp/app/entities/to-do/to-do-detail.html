@@ -1,0 +1,31 @@
+
+<div>
+    <h2><span data-translate="hipToDoApp.toDo.detail.title">To Do</span> {{vm.toDo.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span data-translate="hipToDoApp.toDo.todoName">Todo Name</span></dt>
+        <dd>
+            <span>{{vm.toDo.todoName}}</span>
+        </dd>
+        <dt><span data-translate="hipToDoApp.toDo.todoDescription">Todo Description</span></dt>
+        <dd>
+            <span>{{vm.toDo.todoDescription}}</span>
+        </dd>
+        <dt><span data-translate="hipToDoApp.toDo.creationDate">Creation Date</span></dt>
+        <dd>
+            <span>{{vm.toDo.creationDate | date:'mediumDate'}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span data-translate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button" ui-sref="to-do-detail.edit({id:vm.toDo.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-sm-down" data-translate="entity.action.edit"> Edit</span>
+    </button>
+</div>

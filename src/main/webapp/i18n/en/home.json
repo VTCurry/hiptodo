@@ -1,0 +1,19 @@
+{
+    "home": {
+        "title": "Welcome to the Jungle!",
+        "subtitle": "You're going to die!",
+        "logged": {
+            "message": "You are logged in as user \"{{username}}\"."
+        },
+        "question": "this is for questions:",
+        "link": {
+            "homepage": "JHipster homepage",
+            "stackoverflow": "JHipster on Stack Overflow",
+            "bugtracker": "JHipster bug tracker",
+            "chat": "JHipster public chat room",
+            "follow": "follow @java_hipster on Twitter"
+        },
+        "like": "something with a star for github",
+        "github": "https://www.github.com/VTCurry"
+    }
+}

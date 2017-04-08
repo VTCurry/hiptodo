@@ -1,0 +1,23 @@
+{
+    "hipToDoApp": {
+        "toDo" : {
+            "home": {
+                "title": "To Dos",
+                "createLabel": "Vytvořit To Do",
+                "createOrEditLabel": "Vytvořit nebo upravit To Do"
+            },
+            "created": "Byl vytvořen potomek entity To Do s identifikátorem {{ param }}",
+            "updated": "Potomek entity To Do s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity To Do s identifikátorem {{ param }} bol smazaný.",
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat To Do {{ id }}?"
+            },
+            "detail": {
+                "title": "To Do"
+            },
+            "todoName": "Todo Name",
+            "todoDescription": "Todo Description",
+            "creationDate": "Creation Date"
+        }
+    }
+}

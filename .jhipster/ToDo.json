@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "todoName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "todoDescription",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "creationDate",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20170408191733",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "to_do",
+    "pagination": "infinite-scroll"
+}
